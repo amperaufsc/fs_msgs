@@ -10,6 +10,7 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 set(msg_files
   msg/ControlCommand.msg
@@ -19,6 +20,7 @@ set(msg_files
   msg/Cone.msg
   msg/ExtraInfo.msg
   msg/WheelStates.msg
+  msg/Motion.msg
 )
 
 set(srv_files
@@ -34,7 +36,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
+  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs nav_msgs
   ADD_LINTER_TESTS
 )
 ament_export_dependencies(rosidl_default_runtime)

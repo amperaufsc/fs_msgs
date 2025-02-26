@@ -1,0 +1,114 @@
+[1.516s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.516s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79f4ebcd3af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79f4ebcd3520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79f4ebcd3520>>)
+[4.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.859s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yasmin-nunes/fs_msgs'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.998s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'fs_msgs'
+[4.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yasmin-nunes/ws/install
+[5.176s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[5.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.328s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'cmake_args' from command line to 'None'
+[5.328s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'cmake_target' from command line to 'None'
+[5.328s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.329s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.329s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.329s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.329s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.329s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.329s] Level 5:colcon.colcon_core.verb:set package 'fs_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.329s] DEBUG:colcon.colcon_core.verb:Building package 'fs_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yasmin-nunes/fs_msgs/build/fs_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yasmin-nunes/fs_msgs/install/fs_msgs', 'merge_install': False, 'path': '/home/yasmin-nunes/fs_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.329s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yasmin-nunes/fs_msgs' with build type 'ament_cmake'
+[5.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yasmin-nunes/fs_msgs'
+[5.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yasmin-nunes/fs_msgs/build/fs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yasmin-nunes/fs_msgs -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/fs_msgs/install/fs_msgs
+[11.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yasmin-nunes/fs_msgs/build/fs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yasmin-nunes/fs_msgs -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/fs_msgs/install/fs_msgs
+[11.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yasmin-nunes/fs_msgs/build/fs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yasmin-nunes/fs_msgs/build/fs_msgs -- -j4 -l4
+[28.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yasmin-nunes/fs_msgs/build/fs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yasmin-nunes/fs_msgs/build/fs_msgs -- -j4 -l4
+[28.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yasmin-nunes/fs_msgs/build/fs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yasmin-nunes/fs_msgs/build/fs_msgs
+[28.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fs_msgs)
+[28.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yasmin-nunes/fs_msgs/build/fs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yasmin-nunes/fs_msgs/build/fs_msgs
+[28.986s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs' for CMake module files
+[28.990s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs' for CMake config files
+[28.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('fs_msgs', 'cmake_prefix_path')
+[28.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/cmake_prefix_path.ps1'
+[29.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/cmake_prefix_path.dsv'
+[29.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/cmake_prefix_path.sh'
+[29.038s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/lib'
+[29.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('fs_msgs', 'ld_library_path_lib')
+[29.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/ld_library_path_lib.ps1'
+[29.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/ld_library_path_lib.dsv'
+[29.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/ld_library_path_lib.sh'
+[29.046s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/bin'
+[29.046s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/lib/pkgconfig/fs_msgs.pc'
+[29.047s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/lib/python3.10/site-packages'
+[29.048s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/bin'
+[29.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.ps1'
+[29.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.dsv'
+[29.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.sh'
+[29.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.bash'
+[29.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.zsh'
+[29.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/colcon-core/packages/fs_msgs)
+[29.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fs_msgs)
+[29.363s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs' for CMake module files
+[29.364s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs' for CMake config files
+[29.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('fs_msgs', 'cmake_prefix_path')
+[29.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/cmake_prefix_path.ps1'
+[29.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/cmake_prefix_path.dsv'
+[29.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/cmake_prefix_path.sh'
+[29.368s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/lib'
+[29.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('fs_msgs', 'ld_library_path_lib')
+[29.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/ld_library_path_lib.ps1'
+[29.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/ld_library_path_lib.dsv'
+[29.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/hook/ld_library_path_lib.sh'
+[29.370s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/bin'
+[29.371s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/lib/pkgconfig/fs_msgs.pc'
+[29.371s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/lib/python3.10/site-packages'
+[29.371s] Level 1:colcon.colcon_core.environment:checking '/home/yasmin-nunes/fs_msgs/install/fs_msgs/bin'
+[29.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.ps1'
+[29.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.dsv'
+[29.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.sh'
+[29.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.bash'
+[29.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/fs_msgs/package.zsh'
+[29.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yasmin-nunes/fs_msgs/install/fs_msgs/share/colcon-core/packages/fs_msgs)
+[29.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.376s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.384s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.384s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.385s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.410s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasmin-nunes/fs_msgs/install/local_setup.ps1'
+[29.417s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yasmin-nunes/fs_msgs/install/_local_setup_util_ps1.py'
+[29.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasmin-nunes/fs_msgs/install/setup.ps1'
+[29.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasmin-nunes/fs_msgs/install/local_setup.sh'
+[29.447s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yasmin-nunes/fs_msgs/install/_local_setup_util_sh.py'
+[29.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasmin-nunes/fs_msgs/install/setup.sh'
+[29.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasmin-nunes/fs_msgs/install/local_setup.bash'
+[29.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasmin-nunes/fs_msgs/install/setup.bash'
+[29.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasmin-nunes/fs_msgs/install/local_setup.zsh'
+[29.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasmin-nunes/fs_msgs/install/setup.zsh'
