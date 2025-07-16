@@ -19,7 +19,9 @@ set(msg_files
   msg/GoSignal.msg
   msg/Track.msg
   msg/TrackStamped.msg
+  msg/TrackStampedWithCovariance.msg
   msg/Cone.msg
+  msg/ConeWithCovariance.msg
   msg/ExtraInfo.msg
   msg/WheelStates.msg
   msg/Motion.msg
