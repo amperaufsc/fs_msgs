@@ -1,6 +1,7 @@
 geometry_msgs/Point location #x,y,z [m] wrt to the car start location (origin)
 uint8 color # use the enum below
 float32 confidence
+float32 deviation
 # Constants
 uint8 BLUE=0
 uint8 YELLOW=1
